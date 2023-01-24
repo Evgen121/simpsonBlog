@@ -1,0 +1,28 @@
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid #01acd8;
+    border-radius: 5px;
+    padding: 5px 7px;
+    background-color: rgb(245, 245, 245);
+}
+
+button {
+    width: 100%;
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: #01acd8;
+    border-radius: 5px;
+    padding: 7px 0;
+}
+
+h1 {
+    text-align: center;
+}

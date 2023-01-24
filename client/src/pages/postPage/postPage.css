@@ -1,0 +1,52 @@
+.post-page {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.post-page .image img {
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.post-page .image {
+    color: #FED41D;
+}
+
+.author {
+    display: flex;
+    font-weight: 500;
+
+}
+
+.author div {
+    margin-right: 10px;
+    color: rgb(1, 182, 223);
+
+}
+
+.editPost {
+    text-align: left;
+    margin: 20px 0;
+}
+
+a.edit-btn {
+    background-color: rgb(1, 182, 223);
+    padding: 5px 10px;
+    width: 160px;
+    border-radius: 5px;
+    color: #ffd620;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+a svg {
+    height: 20px;
+    color: white;
+}
